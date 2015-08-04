@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "commonjs",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "preserveConstEnums": true,
+
+    "sourceMap": true,
+
+    "listFiles": true,
+    "outDir": "build"
+  },
+  "files": [
+    "typings/tsd.d.ts",
+    "src/app.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "awesomeTypescriptLoaderOptions": {
+  }
+}

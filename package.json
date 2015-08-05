@@ -1,0 +1,32 @@
+{
+  "name": "webpacked-typescript-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --progress --colors --inline",
+    "prestart": "npm install",
+    "postinstall": "tsd install",
+    "build": "webpack --progress --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Den-dp/webpacked-typescript-demo.git"
+  },
+  "keywords": [],
+  "author": "Den-dp",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Den-dp/webpacked-typescript-demo/issues"
+  },
+  "homepage": "https://github.com/Den-dp/webpacked-typescript-demo#readme",
+  "devDependencies": {
+    "awesome-typescript-loader": "^0.11.2",
+    "typescript": "^1.5.3",
+    "webpack": "^1.10.5",
+    "webpack-dev-server": "^1.10.1"
+  },
+  "dependencies": {
+    "lodash": "^3.10.1"
+  }
+}

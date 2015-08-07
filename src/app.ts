@@ -1,4 +1,4 @@
-/// <reference path="../typings/tsd.d.ts" />
+/*/// <reference path="../typings/tsd.d.ts" />*/
 import {add, subtract} from "./math";
 import times from "./math";
 import { zip } from 'lodash';
